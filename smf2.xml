@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="user">
+	<name>plg_user_smf2</name>
+	<author>Emanuele</author>
+	<creationDate>February 2013</creationDate>
+	<copyright>(C) 2013 Emanuele. All rights reserved.</copyright>
+	<license>GNU General Public License version 2; see LICENSE.txt</license>
+	<authorEmail>emanuele45@gmail.com</authorEmail>
+	<authorUrl>www.elkarte.net</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_USER_SMF2_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="smf2">smf2.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_user_smf2.ini</language>
+		<language tag="en-GB">en-GB.plg_user_smf2.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+				<field name="smf2_path" type="text"
+					description="PLG_SMF2_FIELD_SMF2_PATH_DESC"
+					label="PLG_SMF2_FIELD_SMF2_PATH_LABEL"
+					size="20"
+				/>
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>
